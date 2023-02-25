@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('../../public/1.jpg') no-repeat center center/cover; 
+    background-position-y: 0px;
+    background-color: rgba(22, 21, 21, 0.949);
+   
+    
+}
+.main{
+    /* border: 2px solid white; */
+    height: 50px;
+}
+.search{
+    /* float: right;
+    margin-right: 20px; */
+    display:block;
+    margin: 0px auto;
+    width: 410px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+ 
+}
+#search{
+    border-top-left-radius: 7px;
+    border-end-start-radius: 8px;
+    height: 40px;
+    width: 310px;
+    outline: none;
+    /* border-radius: 8px; */
+    padding-left: 8px;
+    font-size: 17px;
+    /* border: 2px solid red; */
+}
+#search::placeholder{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2px;
+    padding-top: 2px;
+    font-weight: 500;
+}
+/* article{
+    border: 2px solid yellowgreen;
+} */
+#searchbtn{
+    font-size: 17px;
+    /* margin-left: 15px; */
+    background-color:rgb(30, 163, 165);
+    border: 1px solid rgb(19, 114, 116); ;
+    /* border: none; */
+    border-top-right-radius:9px;
+    border-end-end-radius: 9px;
+    height: 40px;
+    width: 100px;
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    /* border-radius: 8px; */
+}
+#second{
+    border: 8px solid whitesmoke;
+    /* height: 200px; */
+    width: 680px;
+    border-radius: 18px;
+}
+.extra-temp{
+    /* border: 2px solid red; */
+    display: flex;
+    background-color:whitesmoke;
+    height: 90px;
+}
+.data{
+    /* border: 2px solid pink; */
+    display: flex;
+    height: 170px;
+    background-color: black;
+    /* border-radius: 18px; */
+    margin-left: -7.8px;
+}
+#temp{
+    width: 210px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 24px;
+    color: white;
+    /* background-color: black; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    font-family: 'Mukta', sans-serif;
+}
+.description{
+    /* border: 2px solid beige; */
+    width: 218px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 22px;
+    margin-right: 6px;
+    color: white;
+    
+    margin-left: 5px;
+}
+.weatherCondi{
+    font-size: 58px;
+    margin-top: -17px;
+    font-weight: bold;
+
+}
+.place{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+    
+    padding-left: 8px;
+
+}
+.temp-info{
+    display: flex;
+}
+#outIcon{
+    /* border: 2px solid red; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color:whitesmoke;
+    align-items: center;
+    /* border-radius: 18px; */
+    /* margin-top: 20px; */
+    
+    
+}
+
+#outIcon i{
+    font-size: 140px;
+    /* color: white; */
+    /* margin-top: 1px; */
+    /* border: 2px solid black; */
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+
+}
+.weatherCondi{
+    /* border: 2px solid blue; */
+}
+.place{
+    /* border: 2px solid whitesmoke; */
+}
+.date{
+    /* border:2px solid white; */
+    background-color: rgb(22, 187, 132);
+    width: 259px;
+
+    
+    /* margin-right: 0px; */
+    /* border-radius: 18px; */
+font-size: 40px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+font-weight: bold;
+padding-top: 20px;
+margin-right: -7.8px;
+color: white;
+font-family: 'Mukta', sans-serif;
+
+}
+.temp-info{
+    /* border: 2px solid yellow; */
+    margin-top: 3px;
+    margin-left: 9px;
+    width: 300px;
+
+}
+.temp-info i{
+    font-size: 30px;
+    margin-top: 31px;
+    margin-left: 5px;
+    color: rgb(16, 179, 86);
+    /* color:rgb(14, 13, 12); */
+    font-weight: bold;
+
+}
+.tempmin{
+    margin-top: 20px;
+    margin-left: 14px;
+    font-size: 20px;
+    /* font-weight: bolder */
+    font-family: 'Secular One', sans-serif;
+    font-weight:100;
+    /* border: 2px solid black; */
+   
+   
+   
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 47px; */
+    height: 86vh;
+    margin-left: -35px;
+}
+.tempmindata{
+    margin-top: -2px;
+}
